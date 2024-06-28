@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itbge.mapper.DepMapper">
+
+    <select id="selectAll" resultType="com.itbge.pojo.Dept">
+        select * from dept
+    </select>
+
+    <delete id="deleteById">
+        delete from dept where id = #{id}
+    </delete>
+
+    <insert id="add">
+        INSERT INTO dept (id,name,create_time,update_time) values (#{id},#{name},now(),now())
+    </insert>
+
+    <select id="selectById" resultType="com.itbge.pojo.Emp">
+        select * from dept where id = #{id}
+    </select>
+
+    <update id="update">
+        update from dept set id=#{id},name=#{name},create_time=now(),update_time=now()
+    </update>
+</mapper>
