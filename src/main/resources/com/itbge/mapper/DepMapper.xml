@@ -15,11 +15,11 @@
         INSERT INTO dept (id,name,create_time,update_time) values (#{id},#{name},now(),now())
     </insert>
 
-    <select id="selectById" resultType="com.itbge.pojo.Emp">
+    <select id="selectById" resultType="com.itbge.pojo.Dept">
         select * from dept where id = #{id}
     </select>
 
     <update id="update">
-        update from dept set id=#{id},name=#{name},create_time=now(),update_time=now()
+        update dept set name=#{name} where id=#{id}
     </update>
 </mapper>

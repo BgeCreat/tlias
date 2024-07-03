@@ -14,7 +14,7 @@ public interface DepMapper {
 
     void add(Dept dept);
 
-    Dept selectById();
+    Dept selectById(Integer id);
 
     void update(Dept dept);
 }

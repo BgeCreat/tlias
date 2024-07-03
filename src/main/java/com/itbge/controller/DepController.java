@@ -37,15 +37,15 @@ public class DepController {
     }
 
     //根据id查找部门信息
-//  @GetMapping("/depts/{id}")
-//    public Result selectById(Integer id) {
-//        Dept dept = depMapper.selectById();
-//        return Result.success(dept);
-//    }
+    @GetMapping("/depts/{id}")
+    public Result selectById(@PathVariable("id") Integer id) {
+        Dept dept = depMapper.selectById(id);
+        return Result.success(dept);
+    }
 
     //更改部门信息
     @PutMapping("/depts")
-    public Result update(Dept dept) {
+    public Result update(@RequestBody Dept dept) {
         depMapper.update(dept);
         return Result.success();
     }

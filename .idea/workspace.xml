@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c11711-f87d-4f29-87eb-362e2ad14734" name="Changes" comment="完成员工和部门信息的增删查改操作">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="73c11711-f87d-4f29-87eb-362e2ad14734" name="Changes" comment="tlias初始环境搭建和完成员工和部门信息的增删查改操作">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbge/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbge/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbge/filter/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbge/filter/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itbge/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itbge/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbge/controller/DepController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbge/controller/DepController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbge/controller/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbge/controller/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbge/mapper/DepMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbge/mapper/DepMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itbge/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itbge/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/itbge/mapper/DepMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/itbge/mapper/DepMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +53,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Java\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2iPcBS6aXlhmS6InJmNK2zWFqN2" />
@@ -62,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Java/idea/idea_code/tlias/src/main/resources/com/itbge/mapper",
+    "last_opened_file_path": "E:/Java/idea/idea_code/tlias",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +87,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "833c2e9fcdd47f0cbb337d6f18925e43",
     "vue.rearranger.settings.migration": "true"
   },
@@ -85,6 +102,9 @@
       <recent name="E:\Java\idea\idea_code\tlias\src\main\resources\com\itbge\mapper" />
       <recent name="E:\Java\idea\idea_code\tlias\src\main\java\com\itbge\pojo" />
       <recent name="E:\Java\idea\idea_code\tlias\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\idea\idea_code\tlias\src\main\java\com\itbge\controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,6 +132,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73c11711-f87d-4f29-87eb-362e2ad14734" name="Changes" comment="" />
@@ -128,6 +151,11 @@
       <workItem from="1719489427080" duration="8492000" />
       <workItem from="1719498881941" duration="23000" />
       <workItem from="1719534545028" duration="1359000" />
+      <workItem from="1719535914630" duration="10997000" />
+      <workItem from="1719555872807" duration="7595000" />
+      <workItem from="1719919268228" duration="4000" />
+      <workItem from="1719921626897" duration="471000" />
+      <workItem from="1719929133908" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="tlias初始环境搭建">
       <created>1719399714824</created>
@@ -199,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719535373604</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tlias初始环境搭建和完成员工和部门信息的增删查改操作">
+      <created>1719536183985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719536183985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +251,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -235,7 +270,22 @@
     <MESSAGE value="tlias初始环境搭建" />
     <MESSAGE value="完成员工和部门信息的增删查改操作" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="tlias初始环境搭建和完成员工和部门信息的增删查改操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="tlias初始环境搭建和完成员工和部门信息的增删查改操作" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.multipart.MultipartException" package="org.springframework.web.multipart" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="javax.servlet.ServletException" package="javax.servlet" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
